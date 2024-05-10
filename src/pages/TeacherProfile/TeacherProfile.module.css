@@ -1,0 +1,265 @@
+.teacherProfileContainer {
+  width: 100%;
+  max-width: 37.5rem;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 5.125rem;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 5% 0.875rem 5%;
+  height: 4rem;
+  border-bottom: 1px solid #eff3f8;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-white);
+  z-index: 3;
+}
+
+.header img {
+  cursor: pointer;
+}
+
+.header img:nth-child(2) {
+  margin-left: auto;
+}
+
+.active_container {
+  position: fixed;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5.5625rem;
+  min-height: 1.25rem;
+  border-radius: 0px 0px 10px 10px;
+  background: #eff3f8;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-dim-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  z-index: 3;
+}
+
+.inactive_container {
+  background: #ffe8de;
+}
+
+.round {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0bdb45;
+}
+
+.inactive_round {
+  background: #e9591b;
+}
+
+.nameCard {
+  width: 100%;
+  padding: 1.5rem 5% 2.5rem 8%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.875rem;
+  border-bottom: 1px solid #eff3f8;
+  position: relative;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
+
+.rating_container {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.rating_container span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-navy-blue);
+}
+
+.date {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-dim-grey);
+}
+
+.pointsContainer {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 86px;
+  height: 20px;
+  border-radius: 20px;
+  background: #d4eaff;
+  border: 1.5px solid #bee0ff;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-dim-grey);
+  padding: 2px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.pointsContainer span {
+  margin-left: 2px;
+  color: var(--color-dim-grey);
+  font-weight: 500;
+  display: inline-block;
+}
+
+.negativePoints span {
+  color: #f03a17;
+}
+
+.pointsContainer img {
+  width: 10px;
+  height: 10px;
+}
+
+.mark_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 1.25rem;
+  row-gap: 2rem;
+  padding: 2rem 5% 1.5rem 5%;
+  border-bottom: 1px solid #eff3f8;
+}
+
+.markCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.markCard img {
+  width: 26px;
+  height: 26px;
+}
+
+.point {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-charcoal);
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+.labelText {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--color-dim-grey);
+}
+
+.details_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 8% 5rem 5%;
+}
+
+.heading_text {
+  margin-top: 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-charcoal);
+}
+
+.detail_wrapper {
+  padding-left: 2.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.details_label {
+  margin-top: 0.875rem;
+}
+
+.detail_text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--color-charcoal);
+}
+
+a {
+  color: #2e5980;
+}
+
+.notfound_text {
+  margin-top: 0.25rem;
+  color: #6a6c6a;
+  font-size: 10px;
+}
+
+.slot_container {
+  margin-top: 0.875rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.available_slot {
+  background: #ADF0B4;
+  min-width: 110px;
+  height: 50px;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #3E7544;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.available_slot span {
+  font-size: 14px;
+  color: #006B0B;
+}
+
+.filled_slot {
+  background: #D9C9C9;
+  color: #7B5858;
+}
+
+.filled_slot span {
+  color: #7E3B3B;
+}

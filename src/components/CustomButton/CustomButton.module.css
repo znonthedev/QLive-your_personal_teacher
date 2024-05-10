@@ -1,0 +1,23 @@
+.customButton {
+  width: 100%;
+  height: 45px;
+  border-radius: 1.875rem;
+  border: none;
+  display: grid;
+  place-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-white);
+  background-color: var(--color-navy-blue);
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.customButton:hover,
+.customButton:active {
+  background-color: rgb(17, 81, 140);
+}
+.customButton[disabled] {
+  opacity: 0.6;
+  pointer-events: none;
+  cursor: not-allowed;
+}

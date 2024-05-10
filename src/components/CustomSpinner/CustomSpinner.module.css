@@ -1,0 +1,29 @@
+.loader {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 3px solid var(--color-white);
+  border-bottom-color: rgba(17, 81, 140, 0.885);
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.pagination_loader {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid rgba(17, 81, 140, 0.885);
+  border-bottom-color: var(--color-white);
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

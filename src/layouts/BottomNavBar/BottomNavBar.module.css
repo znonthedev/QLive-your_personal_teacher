@@ -1,0 +1,40 @@
+.bottomNavBar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 37.5rem;
+  height: 4rem;
+  border-top: 1px solid #e0e0e0;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  background: linear-gradient(0deg, #fcfcfe, #fcfcfe),
+    linear-gradient(0deg, #e0e0e0, #e0e0e0);
+}
+.navList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navItem {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-charcoal);
+}
+.navItem img {
+  width: 26px;
+  height: 26px;
+}
+.active {
+  color: var(--color-navy-blue);
+}

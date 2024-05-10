@@ -1,0 +1,28 @@
+.rollNumberContainer {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-charcoal);
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 28px;
+  min-width: 64px;
+  max-width: 64px;
+  height: 26px;
+  gap: 4px;
+  padding: 2px;
+  padding-right: 0;
+}
+.rollNumberContainer img {
+  width: 20px;
+  height: 20px;
+}
+.rollNumberContainer span {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 22px;
+  text-overflow: ellipsis;
+}

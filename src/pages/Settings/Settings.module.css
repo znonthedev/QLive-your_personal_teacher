@@ -1,0 +1,80 @@
+.settingsContainer {
+  width: 100%;
+  max-width: 37.5rem;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headerContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 5%;
+  gap: 1rem;
+}
+.heading {
+  font-size: 21px;
+  font-weight: 500;
+}
+.backArrow {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.settings_body {
+  margin-top: 0.5rem;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #e0e0e0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 2rem 5% 2.25rem 5%;
+  border-bottom: 1px solid #eff3f8;
+}
+.heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  color: var(--color-charcoal);
+}
+.para {
+  margin-top: 0.875rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--color-dim-grey);
+}
+.changePassword {
+  margin-top: 1.5rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-navy-blue);
+  cursor: pointer;
+}
+.illustration {
+  width: 90px;
+  height: 90px;
+}
+.logout_container {
+  width: 100%;
+  padding: 1rem 5%;
+  display: flex;
+  align-items: flex-start;
+}
+.logout {
+  font-size: 16px;
+  font-weight: 700;
+  color: #b10000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  user-select: none;
+}
+.logout img {
+  width: 24px;
+  height: 24px;
+}

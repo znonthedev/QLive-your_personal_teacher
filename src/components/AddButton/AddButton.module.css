@@ -1,0 +1,19 @@
+.addButton {
+  position: fixed;
+  z-index: 4;
+  right: 5%;
+  bottom: 5rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: #fcfcfe;
+  box-shadow: 0px 0.875px 2.625px 0px #000b4233;
+  box-shadow: 0px 3.5px 7px 2.625px #00193726;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.addButton img {
+  width: 28px;
+  height: 28px;
+}

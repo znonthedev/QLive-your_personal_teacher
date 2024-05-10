@@ -1,0 +1,17 @@
+.downloadButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 5%;
+  width: 58px;
+  height: 58px;
+  border: none;
+  border-radius: 50%;
+  background: #10416e;
+  box-shadow: 0px 0.875px 2.625px 0px #001ebb26;
+  box-shadow: 0px 3.5px 7px 2.625px #0061d326;
+  z-index: 3;
+}
+.downloadButton img {
+  width: 30px;
+  height: 30px;
+}

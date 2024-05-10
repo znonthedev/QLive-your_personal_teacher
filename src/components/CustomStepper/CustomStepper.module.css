@@ -1,0 +1,44 @@
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.round {
+  min-width: 20px;
+  height: 20px;
+  border: 1px solid #bec7ce;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+.label {
+  position: absolute;
+  bottom: -18px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-dim-grey);
+}
+.line {
+  background: #bec7ce;
+  width: 100%;
+  max-width: 100px;
+  height: 1px;
+}
+.dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #2e5980;
+}
+.isActive {
+  border: 1px solid #2e5980;
+}
+.isLineActive {
+  background: #2e5980;
+}
+.isCompleted {
+  border: 1px solid #2e5980;
+  background: #2e5980;
+}

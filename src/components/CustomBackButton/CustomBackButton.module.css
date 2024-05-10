@@ -1,0 +1,10 @@
+.customBackContainer {
+  width: 100%;
+  border-bottom: 1px solid #eff3f8;
+  padding: 0.35rem 5%;
+}
+.arrow {
+  width: 1.625rem;
+  height: 1.625rem;
+  cursor: pointer;
+}

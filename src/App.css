@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-charcoal: #1f1f1f;
+  --color-navy-blue: #10416e;
+  --color-dim-grey: #454746;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}

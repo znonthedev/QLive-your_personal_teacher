@@ -1,0 +1,16 @@
+.headerContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 5%;
+}
+.heading {
+  font-size: 21px;
+  font-weight: 500;
+}
+.settingsIcon {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}

@@ -1,0 +1,114 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+  padding: 0 5%;
+  display: grid;
+  place-items: center;
+  background: #0000004d;
+  z-index: 4;
+}
+.modal {
+  z-index: 5;
+  background: var(--color-white);
+  box-shadow: 0px 1px 5px 0px #00000033;
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+  padding: 20px 18px 14px 18px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-charcoal);
+  margin-bottom: 3px;
+}
+.input {
+  width: 100%;
+  padding: 0 1rem;
+  height: 2.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border: 1px solid #bec7ce;
+  color: var(--color-charcoal);
+  border-radius: 4px;
+  outline: none;
+}
+.errorInput {
+  border: 1px solid #b10000;
+}
+.input::placeholder {
+  color: #555555;
+}
+.input:focus {
+  border-color: var(--color-charcoal);
+}
+.warning_text {
+  margin: 0.25rem 0 0 1rem;
+  font-size: 12px;
+  font-weight: 400;
+  color: #b10000;
+}
+.selector {
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  background-image: url("../../assets/arrow_drop_down.svg");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 7px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-charcoal);
+}
+.selector option {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-charcoal);
+}
+.actions {
+  margin: 2.125rem 0.5rem 0.125rem auto;
+  display: flex;
+  align-items: center;
+  gap: 1.45rem;
+}
+.action_btn {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-dim-grey);
+  padding: 2px 5px;
+  cursor: pointer;
+}
+.submit_btn {
+  color: #2e5980;
+}
+.notfound_text {
+  margin-top: 1rem;
+  color: #6a6c6a;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+.modal_closer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bodyModalOpen {
+  overflow: hidden;
+}
